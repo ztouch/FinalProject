@@ -1,0 +1,457 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+  .explorePage, .signPage, .contactPage, .communityPage, .challengePage{
+  	width: 100%;
+  	min-height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-position: center;
+}
+/*Styling The Header*/
+.myHeader{
+	width: 100vw;
+	height: 15%;
+	background-color:rgba(0,0,0);
+	position: fixed;
+
+}
+.myHeader img{
+	width: 80px;
+	height: 80px;
+	margin-top: 5px;
+	float: left;
+}
+.myHeader h1{
+	position: relative;
+	color: white;
+	left: 2vw;
+	margin-top: 30px;
+}
+#myNav a{
+	position: relative;
+	bottom:40px;
+	left: 16vw;
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+	font-size: 20px;
+		}
+#myNav a:hover {
+  	background-color: #ddd;
+  	color: black;
+				}
+	.mySearch {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float: right;
+    position: relative;
+    bottom: 80px;
+    right: 20px;
+}
+
+.mySearch:focus {
+    width: 40%;
+}
+/*End Of Styling The Header*/
+
+/*Styling The Home Page*/
+.homePage{
+	background-image: url("africaBack.jpeg");
+	width: 100%;
+	min-height: 150vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+  	background-position: center;
+  	color: white;
+  	line-height: 1.6;
+		}
+#myText{
+  		float: left;
+  		font-size: 30px;
+  		}
+  /*End Of Styling The Home Page*/
+
+  /*Styling The Explore Page*/
+.explorePage{
+	color: #777;
+	background-color:white;
+	text-align: justify;
+	width: 100%;
+	min-height: 200vh;
+	font-size: 20px;
+
+}
+.slideanim {visibility:hidden;
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+.btn{
+	padding: 20px 20px;
+}
+.myContainer{
+	margin-top: 10vh;
+	
+}
+.cont1{
+	border: 1px solid #f4511e;
+	float: left;
+	margin-left: 5%;
+	margin-top: 15vh;
+	width: 350px;
+	height: 370px;
+}
+
+.myContainer img{
+	float: left;
+	margin-top: 2vh;
+	margin-left: 1.5vw;
+	width: 300px;
+	height: 300px;
+}
+span a{
+	text-decoration: none;
+	padding: 20px;
+	float: left;
+	margin-bottom: 2vh;
+}
+#myBut{
+	
+	margin-left: 10vw;
+	padding: 20px 20px;
+	width: 80%;
+	cursor: pointer;
+	margin-top: 10vh;
+}
+/*Ende Of Styling The Explore Page*/
+
+
+
+/*Sign Up Page*/
+
+.signPage{
+	background-color: rgba(255,255,255);
+	min-height: 400px;
+}
+.mySignUp h1{
+	text-align: center;
+	font-size: 50px;
+	
+}
+.inputField, select{
+padding: 20px 20px;
+width: 30%;
+margin-left: 35vw;
+}
+.label{
+	font-size: 24px;
+	font-family: "Cambria";
+	padding: 5px;
+	margin-left: 45vw;
+	line-height: 1.6;
+}
+#amazing{
+		font-size: 24px;
+	font-family: "Cambria";
+}
+#mySignBut{
+	cursor: pointer;
+	padding: 20px 20px;
+	width: 20%;
+	margin-top: 20px;
+	margin-left: 40vw;
+	margin-bottom: 50px;
+}
+
+/*End Of Styling The Sign Up Page*/
+
+/*Styling The Challenge Page*/
+
+.challengePage{
+	
+	color: grey;
+	background-image: url(wood2.jpg);
+	height: 100vh;
+
+
+}
+#myChallenge{
+	background-color: rgba(0,0,0,0.4);
+	width: 40vw;
+	height: 60vh;
+	border-radius: 20%;
+	float: left;
+	margin-top: 10vh;
+	margin-left: 10vw;
+	padding: 20px;
+	font-size: 30px;
+	color: white;
+	line-height: 1.6;
+}
+
+/*End Of Styling The Challenge Page*/
+
+
+/*Styling The community Page*/
+.communityPage{
+	width: 100%;
+	min-height: 120vh;
+}
+#myCom{
+	margin-top: 50px;
+	text-align: center;
+	line-height: 1.6;
+}
+#comuIcon{
+	float: left;
+}
+#com_icon{
+	line-height: 1.6;
+	font-size: 80px;
+	margin-left: 20vw;
+
+}
+.com-icon h3{
+	clear: both;
+	margin-left: 20vw;
+}
+/* Slideshow container */
+.slideshow-container {
+  float: left;
+  background: #f1f1f1f1;
+  width: 100%;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  float: left;
+  width: auto;
+  margin-top: -70px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+ float: right;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+    clear: both;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+/*End Of Styling The Communit Page*/
+
+/*Styling The Contact Page*/
+
+#myContact{
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px;
+	line-height: 1.6;
+	font-size: 20px;
+	
+}
+#contactBut{
+	cursor: pointer;
+	padding: 20px 20px;
+	width: 15%;
+	margin-top: 15px;
+	margin-left: 75vw;
+	background-color: #20d6e3;
+	border: none;
+
+}
+#name, #email, #subject{
+	float: left;
+	width: 25%;
+	margin-bottom: 30px;
+	background-color: #f1f1f1;
+	border: none;
+
+}
+
+#comment{
+	margin-left: 74vw;
+	margin-bottom: 30px;
+	background-color: #f1f1f1;
+	border: none;
+}
+
+
+
+/* Styling the font*/
+.fa-facebook{
+	background-color: #3f48cc;
+	color: white;
+	padding: 20px;
+	font-size: 80px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+.fa-twitter{
+	background-color: #4ac3f8;
+	color: white;
+	padding: 20px;
+	font-size: 80px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+.fa-linkedin{
+	background-color: #4707b6;
+	color: white;
+	padding: 20px;
+	font-size: 80px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+.fa-google{
+	background-color: #e11616;
+	color: white;
+	padding: 20px;
+	font-size: 80px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+
+.fa-facebook:hover {
+    background-color: #000;
+    border-radius: 50%;
+}
+.fa-twitter:hover {
+    background-color: #000;
+    border-radius: 50%;
+}
+.fa-linkedin:hover {
+    background-color: #000;
+    border-radius: 50%;
+}
+.fa-google:hover {
+    background-color: #000;
+    border-radius: 50%;
+}
+
+/*End Of Styling The Contact Page*/
+
+/*Styling The Footer Page*/
+.footerPage{
+	background: rgba(0,0,0); /* Black background with transparency */
+    color: #f1f1f1;
+    padding: 10px;
+    position: relative;
+    top: 30vh;
+    height: 10vh;
+    float: left;
+    width: 100%;
+
+}
+/*End Of Styling The footer Page*/
+
+
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .container {
+    width: 80%;
+    padding: 0;
+  }
+  .footer {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .header, .container, .footer {
+    width: 100%;
+  }
+}

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="home.css">
+	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	    <script type="text/javascript" src="index.js"></script>
+
+</head>
+<body>
+
+	<div class="container">
+		<div class="myHeader">
+
+			<a href="#home"><img src="Images/myFirstLogo.png"></a>
+			<h1>A.CodieGirlz</h1>
+				<div id="myNav">
+					<a href="#explore">Explore</a>
+					<a href="#sign">Sign Up</a>
+					<a href="#challenge">Challenges</a>
+					<a href="#communicate">Community</a>
+					<a href="#contact">Contact</a>
+				</div>
+			<form>
+  		<input type="text" name="search" placeholder="Search.." class="mySearch">
+		</form>
+		</div>
+		<div class="homePage" id="home">
+			<div id="myText">
+				<h1>Africa By Us</h1>
+				<h1>Our Homeland <br>Inspire us<br> To be Great</h1>
+			</div>
+		</div>
+
+
+		<div class="explorePage" id="explore">
+			<div class="myContainer slideanim">
+				<span>Explore</span>
+				<h3>EXPLORE</h3>
+				  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  				<button class="btn" onclick="filterSelection('WebDesign')"> Web Design</button>
+ 				 <button class="btn" onclick="filterSelection('SofTwareApp')"> Software / App</button>
+ 				 <button class="btn" onclick="filterSelection('graphicDesign')"> Graphic Design</button>
+				<div class="cont1 WebDesign">
+					<img src="Images/back1.jpg">
+					
+						<p>
+								<span><a href="#"><i class="fa fa-share-alt"></i></a></span>
+								<span><a href="#"><i class="fa fa-eye"></i> 100</a></span>
+								<span><a href="#"><i class="fa fa-heart"></i> 49</a></span>
+							</p>
+					<div class="overlay">
+						<div id="text">
+							<p>Images</p>
+						</div>
+					</div>	
+				</div>
+				<div class="cont1 SofTwareApp">
+					<img src="Images/back2.jpg">
+					
+						<p>
+								<span><a href="#"><i class="fa fa-share-alt"></i></a></span>
+								<span><a href="#"><i class="fa fa-eye"></i> 100</a></span>
+								<span><a href="#"><i class="fa fa-heart"></i> 49</a></span>
+							</p>
+					<div class="overlay">
+						<div id="text">
+							<p>Images</p>
+						</div>
+					</div>	
+				</div>
+				<div class="cont1 graphicDesign">
+					<img src="Images/back3.jpg">
+					
+						<p>
+								<span><a href="#"><i class="fa fa-share-alt"></i></a></span>
+								<span><a href="#"><i class="fa fa-eye"></i> 100</a></span>
+								<span><a href="#"><i class="fa fa-heart"></i> 49</a></span>
+							</p>
+					<div class="overlay">
+						<div id="text">
+							<p>Images</p>
+						</div>
+					</div>	
+				</div>
+				<div class="cont1 WebDesign">
+					<img src="Images/back4.jpg">
+					
+						<p>
+								<span><a href="#"><i class="fa fa-share-alt"></i></a></span>
+								<span><a href="#" id="myIcon"><i class="fa fa-eye"></i> 100</a></span>
+								<span><a href="#" id="myIcon"><i class="fa fa-heart"></i> 49</a></span>
+							</p>
+					<div class="overlay">
+						<div id="text">
+							<p>Images</p>
+						</div>
+					</div>
+
+				</div>
+			
+
+			</div>
+			<button id="myBut">LOAD MORE<i class="fa fa-refresh"></i></button>
+		</div>
+
+
+		<div class="signPage" id="sign">
+			<div>
+				<form class="mySignUp">
+					<h1>Sign Up</h1>
+					<label  for="first_name" class="label">Name</label><br>
+					<input type="text" name="first_name" required placeholder="Type your Name" class="inputField"><br>
+					<label  for="last_name" class="label">Last Name</label><br>
+					<input type="text" name="last_name" required placeholder="Type your Last Name" class="inputField"><br>
+					<label  for="password" class="label">Password</label><br>
+					<input type="password" name="myPassword" required placeholder="*********" class="inputField"><br>
+					<label  for="password" class="label">Confirm Password</label><br>
+					<input type="password" name="myPassword" required placeholder="*********" class="inputField"><br>
+					<label  for="email" class="label">E-Mail</label><br>
+					<input type="email" name="emailId" required placeholder="Type your Email" class="inputField"><br>
+					<input type="checkbox" name="amazing" class="label" required>
+    				<!-- always remember: you are amazing. -->
+   					<label for="amazing" id="amazing">I'm amazing</label><br>
+   					<button type="submit" id = "mySignBut">Submit</button>
+				</form>
+			</div>
+		
+		</div>
+		<div class="challengePage" id="challenge">
+			<span>CHALLENGE</span>
+			<h2>CHALLENGE</h2>
+			<div id="myChallenge" class="slideanim">
+				
+				<h3>Welcome To our Challenge Page</h3>
+				<p>Level Up Your Skills with Our Challenges.</p>
+				<h4>How it Works</h4>
+				<p>We give you themes and you work is to learn and build something with the Theme</p>
+			</div>
+		</div>
+		<div class="communityPage" id="communicate">
+			<span>COMMUNITY</span>
+			<div id="myCom">
+				
+				<h1>Our Coummunity is instruitive and Fun</h1>
+					<div class="slideshow-container">
+						<div class="mySlides">
+  							<q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+  							<p class="author">- John Keats</p>
+						</div>
+							<div class="mySlides">
+ 								<q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+  								<p class="author">- Ernest Hemingway</p>
+							</div>
+								<div class="mySlides">
+  									<q>I have not failed. I've just found 10,000 ways that won't work.</q>
+  									<p class="author">- Thomas A. Edison</p>
+								</div>
+								<a class="prev" onclick="plusSlides(-1)">❮</a>
+								<a class="next" onclick="plusSlides(1)">❯</a>
+					</div>
+						<div class="dot-container">
+  							<span class="dot" onclick="currentSlide(1)"></span> 
+  							<span class="dot" onclick="currentSlide(2)"></span> 
+  							<span class="dot" onclick="currentSlide(3)"></span> 
+						</div>
+					
+					</div>
+					<div class="com-icon slideanim">
+						<div id="comuIcon">
+						<p><a href="#"><i class="fa fa-heart" id="com_icon"></i></a></p>
+						<h3>LOVE</h3>
+						</div>
+						<div id="comuIcon">
+						<p><a href="#"><i class="fa fa-lock" id="com_icon"></i></a></p>
+						<h3>JOB</h3>	
+						</div>
+						<div id="comuIcon">
+						<p><a href="#"><i class="fa fa-certificate" id="com_icon"></i></a></p>
+						<h3>GET CERTIFIED</h3>	
+						</div>
+						<div id="comuIcon">
+						<p><a href="#"><i class="fa fa-wrench" id="com_icon"></i></a></p>
+						<h3>HARD WORK</h3>	
+						</div>
+						<div id="comuIcon">
+						<p><a href="#"><i class="fa fa-home" id="com_icon"></i></a></p>
+						<h3>FAMILY</h3>	
+						</div>
+						<div id="comuIcon">
+						<p><a href="#"><i class="fa fa-plane" id="com_icon"></i></a></p>
+						<h3>Travel</h3>	
+						</div>
+						
+					</div>
+				
+				</div>
+
+
+				<div class="contactPage" id="contact">
+					<span>Get In Touch</span>
+						<h2>Contact</h2>
+							<div id="myContact" class="slideanim">
+         		 				<p>Contact us and we'll get back to you within 24 hours.</p>
+          						 <p><span><i class="fa fa-map"></i>Accra, Ghana</span></p>
+          		 				<p><span><i class="fa fa-phone"></i></span>+ 233 55 39 25 676</p>
+          						 <p><span><i class="fa fa-envelope"></i></span>bagayokozeinab19@gmail.com</p>
+          						 <a href="#"><i class="fa fa-twitter"></i></a>  
+    			<a href="#"><i class="fa fa-linkedin"></i></a>  
+    			<a href="#"><i class="fa fa-facebook"></i></a> 
+    			<a href="#"><i class="fa fa-google"></i></a> 
+        					</div>
+       					 <div class ="mySign">
+              				<form>
+                			<input id="name" type="text" name="name" placeholder="Name" required class="inputField">
+							<input id="email" type="text" name="email" placeholder="Email" class="inputField" required>
+							<input id="subject" type="text" name="subject" placeholder="subject" class="inputField" required>
+                			<textarea rows="8" cols="40" id="comment" placeholder="Comment"></textarea>	
+                			<button type="submit" id="contactBut">Send</button>
+                			</form>
+            			</div>
+		</div>
+		<div class="footerPage" id="footer">
+			<p><small>&copy; Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |<a href="developerinVogue.org" style="text-decoration: none;"> DeveloperInVogue.org</a></span>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="home.js"></script>
+</body>
+</html>
